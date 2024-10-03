@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #444;
+}
+
+form {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Sensor List Styles */
+.sensor-list, .alert-list {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sensor-list ul, .alert-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sensor-list li {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #4CAF50; /* Green background */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.alert-list li {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #FF5733; /* Red background */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  form, .sensor-list, .alert-list {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  form input, form button {
+    font-size: 14px;
+  }
+}
